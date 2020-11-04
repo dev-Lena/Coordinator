@@ -16,6 +16,8 @@ class BuyCoordinator: Coordinator {
     }
 
     func start() {
-        // MainCoordinator.buySubscription()의 코드를 이곳으로 옮길 예정입니다.
-    }
+        let vc = BuyViewController.instantiate()
+        vc.coordinator = self
+        navigationController.pushViewController(vc, animated: true)
+    }   
 }
