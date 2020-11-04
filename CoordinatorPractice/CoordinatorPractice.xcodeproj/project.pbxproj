@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6AD3EDCD2552A00800F8EF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3EDCC2552A00800F8EF61 /* AppDelegate.swift */; };
-		6AD3EDCF2552A00800F8EF61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3EDCE2552A00800F8EF61 /* SceneDelegate.swift */; };
 		6AD3EDD12552A00800F8EF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3EDD02552A00800F8EF61 /* ViewController.swift */; };
 		6AD3EDD42552A00800F8EF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD3EDD22552A00800F8EF61 /* Main.storyboard */; };
 		6AD3EDD72552A00800F8EF61 /* CoordinatorPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3EDD52552A00800F8EF61 /* CoordinatorPractice.xcdatamodeld */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		6AD3EDC92552A00800F8EF61 /* CoordinatorPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD3EDCC2552A00800F8EF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6AD3EDCE2552A00800F8EF61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6AD3EDD02552A00800F8EF61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6AD3EDD32552A00800F8EF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AD3EDD62552A00800F8EF61 /* CoordinatorPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoordinatorPractice.xcdatamodel; sourceTree = "<group>"; };
@@ -111,18 +109,15 @@
 		6AD3EDCB2552A00800F8EF61 /* CoordinatorPractice */ = {
 			isa = PBXGroup;
 			children = (
+				6AD3EE4D2552E61300F8EF61 /* ViewController */,
 				6AD3EE0C2552A07400F8EF61 /* Coordinator */,
 				6AD3EDCC2552A00800F8EF61 /* AppDelegate.swift */,
-				6AD3EDCE2552A00800F8EF61 /* SceneDelegate.swift */,
-				6AD3EDD02552A00800F8EF61 /* ViewController.swift */,
 				6AD3EE072552A04A00F8EF61 /* Storyboarded.swift */,
 				6AD3EDD22552A00800F8EF61 /* Main.storyboard */,
 				6AD3EDD82552A00900F8EF61 /* Assets.xcassets */,
 				6AD3EDDA2552A00900F8EF61 /* LaunchScreen.storyboard */,
 				6AD3EDDD2552A00900F8EF61 /* Info.plist */,
 				6AD3EDD52552A00800F8EF61 /* CoordinatorPractice.xcdatamodeld */,
-				6AD3EE152552A13500F8EF61 /* BuyViewController.swift */,
-				6AD3EE1A2552A17300F8EF61 /* CreateAccountViewController.swift */,
 			);
 			path = CoordinatorPractice;
 			sourceTree = "<group>";
@@ -152,6 +147,16 @@
 				6AD3EE0D2552A08C00F8EF61 /* MainCoordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6AD3EE4D2552E61300F8EF61 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6AD3EDD02552A00800F8EF61 /* ViewController.swift */,
+				6AD3EE152552A13500F8EF61 /* BuyViewController.swift */,
+				6AD3EE1A2552A17300F8EF61 /* CreateAccountViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +296,6 @@
 				6AD3EE032552A02800F8EF61 /* Coordinator.swift in Sources */,
 				6AD3EDD72552A00800F8EF61 /* CoordinatorPractice.xcdatamodeld in Sources */,
 				6AD3EE1B2552A17300F8EF61 /* CreateAccountViewController.swift in Sources */,
-				6AD3EDCF2552A00800F8EF61 /* SceneDelegate.swift in Sources */,
 				6AD3EE082552A04A00F8EF61 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
