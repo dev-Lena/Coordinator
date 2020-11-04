@@ -24,7 +24,6 @@ class BuyCoordinator: Coordinator {
     }
     
     func didFinishBuying() {
-        // 
         parentCoordinator?.childDidFinish(self)
     }
 }
