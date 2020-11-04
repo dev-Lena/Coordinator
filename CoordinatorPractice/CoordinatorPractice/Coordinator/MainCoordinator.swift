@@ -44,7 +44,9 @@ class MainCoordinator: NSObject, Coordinator {
             }
         }
     }
+    
 }
+
 extension MainCoordinator: UINavigationControllerDelegate {
     func navigationController(_ navigationController: UINavigationController, didShow viewController: UIViewController, animated: Bool) {
         

@@ -15,4 +15,5 @@ class BuyViewController: UIViewController, Storyboarded {
         super.viewDidLoad()
 
     }
+    
 }
