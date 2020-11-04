@@ -24,6 +24,7 @@ class MainCoordinator: Coordinator {
     
     func buySubscription() {
         let child = BuyCoordinator(navigationController: navigationController)
+        child.parentCoordinator = self
         childCoordinators.append(child)
         child.start()
     }

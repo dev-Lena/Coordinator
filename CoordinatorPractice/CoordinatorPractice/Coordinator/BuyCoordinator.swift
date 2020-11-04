@@ -10,6 +10,7 @@ import UIKit
 class BuyCoordinator: Coordinator {
     
     var childCoordinators = [Coordinator]()
+    weak var parentCoordinator: MainCoordinator? 
     var navigationController: UINavigationController
 
     init(navigationController: UINavigationController) {
