@@ -23,6 +23,9 @@ class MainCoordinator: Coordinator {
     }
     
     func buySubscription() {
+        let child = BuyCoordinator(navigationController: navigationController)
+        childCoordinators.append(child)
+        child.start()
     }
 
     func createAccount() {
