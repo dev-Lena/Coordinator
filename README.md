@@ -2,6 +2,8 @@
 
 <br>
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23C1C1D3&title_bg=%239642CB&icon=&icon_color=%234F4C4C&title=hits%E2%9C%A8&edge_flat=false)](https://hits.seeyoufarm.com)
+
 ## Coordinator란?
 
 *Soroush Khanlou*가 NSSpain conference 2015에서 iOS 커뮤니티에 소개한 패턴으로 [Soroush Khanlou](https://khanlou.com/2015/10/coordinators-redux/) 의 글에 보면 코디네이터(Coordinator)를 이렇게 소개하고 있습니다.<br>
