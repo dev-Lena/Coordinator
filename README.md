@@ -2,7 +2,7 @@
 
 <br>
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgjbae1212%2Fhit-counter&count_bg=%23C1C1D3&title_bg=%239642CB&icon=&icon_color=%234F4C4C&title=hits%E2%9C%A8&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2dev-Lena%2Coordinator&count_bg=%23C1C1D3&title_bg=%239642CB&icon=&icon_color=%234F4C4C&title=hits%E2%9C%A8&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## Coordinator란?
 
