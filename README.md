@@ -25,7 +25,7 @@
 - 각 coordinator는 **child** coordinators 배열을 가지고 있습니다.
 - 각 child coordinator는 **parent** coordinator에 대한 delegate reference가 있습니다.
 
-<br>더 자세한 내용은 [블로그]()에 적어놨습니다.
+<br>더 자세한 내용은 [블로그](https://lena-chamna.netlify.app/post/ios_design_pattern_coordinator_basic/)에 적어놨습니다.
 
 <br><br>
 
@@ -35,8 +35,9 @@
 
 * 이 예제는 [How to use the coordinator pattern in iOS apps](https://www.hackingwithswift.com/articles/71/how-to-use-the-coordinator-pattern-in-ios-apps) 와 [Advanced coordinators in iOS](https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios)를 참고하여 만들었습니다.
 * ViewController의 UI는 Main.Storyboard에 구현했으며 storyboardID를 사용합니다.
-* Navigation Controller을 기반으로 화면을 전환합니다.
-* ***<u><span style="color:orange">하나의 Coordinator를 사용하는 방법은 Basic을, 여러 개의 Coordinator를 사용하는 방법은 Advanced를 확인해주세요.</span></u>***
+* Navigation Controller을 기반으로 화면을 전환합니다.  
+<br>
+<u><span style="color:orange">하나의 Coordinator를 사용하는 방법은 Basic을, 여러 개의 Coordinator를 사용하는 방법은 Advanced를 확인해주세요.</span></u>
 
 <br><br>
 
