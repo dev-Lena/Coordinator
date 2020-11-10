@@ -41,8 +41,12 @@
 ![alt text](https://github.com/dev-Lena/Coordinator/blob/main/Media/coordinator_basic.gif)
 
 * 이 예제는 [How to use the coordinator pattern in iOS apps](https://www.hackingwithswift.com/articles/71/how-to-use-the-coordinator-pattern-in-ios-apps) 와 [Advanced coordinators in iOS](https://www.hackingwithswift.com/articles/175/advanced-coordinator-pattern-tutorial-ios)를 참고하여 만들었습니다.
-* ViewController의 UI는 Main.Storyboard에 구현했으며 storyboardID를 사용합니다.
+* ViewController의 UI는 Main.Storyboard에 구현했으며 storyboardId를 사용합니다.
 * Navigation Controller을 기반으로 화면을 전환합니다.  
+* SceneDelegate를 삭제후 AppDelegate만을 사용합니다.
+(반드시 SceneDelegate를 삭제해야하는 것은 아닙니다. 이와 관련된 내용은 [이슈 Initial Setting #4](https://github.com/dev-Lena/Coordinator/issues/4)를 참고해주세요.)
+
+
 <br>
 <u><span style="color:orange">하나의 Coordinator를 사용하는 방법은 Basic을, 여러 개의 Coordinator를 사용하는 방법은 Advanced를 확인해주세요.</span></u>
 
